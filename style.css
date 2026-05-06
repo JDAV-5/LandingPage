@@ -85,11 +85,28 @@ section{
     justify-content:space-between;
     align-items:center;
 
-    margin-bottom:25px;
+    margin-bottom:10px;
+
+    padding:0 20px 0 0;
+}
+
+.nav-links{
+    display:flex;
+    gap:28px;
+    list-style:none;
+
+    margin-left:auto;
+
+    position:relative;
+    left:-460px;
+    top:-50px;
 }
 
 .logo img{
-    width:135px;
+    width:285px;
+
+    position:relative;
+    top:-10px;
 }
 
 .nav-links{
@@ -120,8 +137,9 @@ section{
     gap:40px;
 
     flex:1;
-}
 
+    margin-top:-40px;
+}
 .hero-text{
     flex:1;
 
@@ -130,6 +148,9 @@ section{
     justify-content:center;
 
     z-index:2;
+
+    position:relative;
+    top:-20px;
 }
 
 .hero-text h1{
@@ -152,9 +173,9 @@ section{
 }
 
 .primary-btn{
-    width:320px;
+    width:270px;
 
-    padding:12px 20px;
+    padding:11px 18px;
 
     border:none;
     border-radius:12px;
@@ -162,7 +183,7 @@ section{
     background:#6B320D;
     color:white;
 
-    font-size:0.9rem;
+    font-size:0.88rem;
     font-weight:600;
 
     cursor:pointer;
@@ -173,6 +194,10 @@ section{
     0 6px 16px rgba(107,50,13,0.20);
 
     text-decoration:none;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
 }
 
 .primary-btn:hover{
@@ -187,11 +212,12 @@ section{
 }
 
 .hero-image img{
-    width:100%;
-    max-width:720px;
+    width:130%;
+    max-width:950px;
 
     position:relative;
-    right:-30px;
+    right:-40px;
+    top:-90px;
 
     animation:float 4s ease-in-out infinite;
 }

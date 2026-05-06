@@ -94,7 +94,11 @@
                     en tu primera compra
                 </h3>
 
-                <a href="#descuento" class="primary-btn">
+                <a
+                    href="#descuento"
+                    class="primary-btn"
+                    id="btn-descuento"
+                >
                     Quiero mi 10% de descuento →
                 </a>
 
@@ -102,7 +106,10 @@
 
             <div class="hero-image">
 
-                <img src="assets/img/hero-paletas.png" alt="Paletas">
+                <img
+                    src="assets/img/hero-paletas.png"
+                    alt="Paletas"
+                >
 
             </div>
 
@@ -211,15 +218,11 @@
 
     <section class="history" id="nosotros">
 
-        <!-- DECORACION -->
-
         <img
             src="assets/img/historiass.png"
             alt="Decoración"
             class="history-decoration"
         >
-
-        <!-- TEXTO -->
 
         <div class="history-text">
 
@@ -242,11 +245,12 @@
 
         </div>
 
-        <!-- IMAGEN PRINCIPAL -->
-
         <div class="history-image">
 
-            <img src="assets/img/historia.png" alt="Historia">
+            <img
+                src="assets/img/historia.png"
+                alt="Historia"
+            >
 
         </div>
 
@@ -277,14 +281,38 @@
             <form class="discount-form" id="discount-form">
 
                 <label>Nombre completo</label>
-                <input type="text" placeholder="Tu nombre">
+
+                <input
+                    type="text"
+                    placeholder="Tu nombre"
+                >
+
+                <label>Rango de edad</label>
+
+                <select id="rango-edad">
+
+                    <option selected disabled>
+                        Selecciona tu rango de edad
+                    </option>
+
+                    <option>18 - 25</option>
+                    <option>26 - 35</option>
+                    <option>36 - 45</option>
+                    <option>46 - 55</option>
+                    <option>56+</option>
+
+                </select>
 
                 <label>WhatsApp/Teléfono</label>
-                <input type="text" placeholder="+505">
+
+                <input
+                    type="text"
+                    placeholder="+505"
+                >
 
                 <label>¿Qué sabor te interesa?</label>
 
-                <select>
+                <select id="sabor-interes">
 
                     <option>Cheesecake Fresa</option>
                     <option>La Dálmata</option>
@@ -292,7 +320,10 @@
 
                 </select>
 
-                <button type="submit">
+                <button
+                    type="submit"
+                    id="btn-form-descuento"
+                >
                     Obtener mi descuento
                 </button>
 
@@ -342,15 +373,14 @@
 
         <div class="footer-content">
 
-            <!-- LOGO -->
-
             <div class="footer-logo">
 
-                <img src="assets/img/logo.png" alt="Logo">
+                <img
+                    src="assets/img/logo.png"
+                    alt="Logo"
+                >
 
             </div>
-
-            <!-- LINKS -->
 
             <div class="footer-links">
 
@@ -363,8 +393,6 @@
 
             </div>
 
-            <!-- CONTACTO -->
-
             <div class="footer-contact">
 
                 <h4>Contacto</h4>
@@ -374,27 +402,35 @@
 
             </div>
 
-            <!-- REDES -->
-
             <div class="social-icons">
 
                 <a href="#">
-                    <img class="social-icon" src="assets/icons/Instagram.png" alt="Instagram">
+                    <img
+                        class="social-icon"
+                        src="assets/icons/Instagram.png"
+                        alt="Instagram"
+                    >
                 </a>
 
                 <a href="#">
-                    <img class="social-icon" src="assets/icons/Facebook.png" alt="Facebook">
+                    <img
+                        class="social-icon"
+                        src="assets/icons/Facebook.png"
+                        alt="Facebook"
+                    >
                 </a>
 
                 <a href="#">
-                    <img class="social-icon" src="assets/icons/Tiktok.png" alt="TikTok">
+                    <img
+                        class="social-icon"
+                        src="assets/icons/Tiktok.png"
+                        alt="TikTok"
+                    >
                 </a>
 
             </div>
 
         </div>
-
-        <!-- BOTTOM -->
 
         <div class="footer-bottom">
 
